@@ -28,3 +28,8 @@ analogWrite(led,val);
 
 
 }
+
+//The esp32 has a 12-bit Digital-Analog converter, hence it offers more precise analog readings from 0-4095.
+//Whereas, the Arduino has a 10-bit converter, offering analog readings from 0-1023.
+
+
